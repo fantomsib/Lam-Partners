@@ -125,6 +125,11 @@ body {
 
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
 /*HEADER*/
 .header {
     height: 86px;
