@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'oswaldlight';
-    src: url('../fonts/oswald-bold-webfont.woff2') format('woff2'),
-        url('../fonts/oswald-extralight-webfont.woff') format('woff');
+    src: url('/fonts/oswald-bold-webfont.woff2') format('woff2'),
+        url('/fonts/oswald-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +12,8 @@
 
 @font-face {
     font-family: 'oswaldmedium';
-    src: url('../fonts/oswald-medium-webfont.woff2') format('woff2'),
-        url('../fonts/oswald-medium-webfont.woff') format('woff');
+    src: url('/fonts/oswald-medium-webfont.woff2') format('woff2'),
+        url('/fonts/oswald-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'oswaldregular';
-    src: url('../fonts/oswald-regular-webfont.woff2') format('woff2'),
-        url('../fonts/oswald-regular-webfont.woff') format('woff');
+    src: url('/fonts/oswald-regular-webfont.woff2') format('woff2'),
+        url('/fonts/oswald-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -36,8 +36,8 @@
 
 @font-face {
     font-family: 'oswaldsemibold';
-    src: url('../fonts/oswald-semibold-webfont.woff2') format('woff2'),
-        url('../fonts/oswald-semibold-webfont.woff') format('woff');
+    src: url('/fonts/oswald-semibold-webfont.woff2') format('woff2'),
+        url('/fonts/oswald-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -45,8 +45,8 @@
 
 @font-face {
     font-family: 'source_sans_proextralight';
-    src: url('../fonts2/sourcesanspro-extralight-webfont.woff2') format('woff2'),
-        url('../fonts2/sourcesanspro-extralight-webfont.woff') format('woff');
+    src: url('/fonts2/sourcesanspro-extralight-webfont.woff2') format('woff2'),
+        url('/fonts2/sourcesanspro-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -57,8 +57,8 @@
 
 @font-face {
     font-family: 'source_sans_probold';
-    src: url('../fonts2/sourcesanspro-bold-webfont.woff2') format('woff2'),
-        url('../fonts2/sourcesanspro-bold-webfont.woff') format('woff');
+    src: url('/fonts2/sourcesanspro-bold-webfont.woff2') format('woff2'),
+        url('/fonts2/sourcesanspro-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
