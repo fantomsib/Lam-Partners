@@ -1,0 +1,576 @@
+@font-face {
+    font-family: 'oswaldlight';
+    src: url('/fonts/oswald-bold-webfont.woff2') format('woff2'),
+        url('/fonts/oswald-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldmedium';
+    src: url('/fonts/oswald-medium-webfont.woff2') format('woff2'),
+        url('/fonts/oswald-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldregular';
+    src: url('/fonts/oswald-regular-webfont.woff2') format('woff2'),
+        url('/fonts/oswald-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldsemibold';
+    src: url('/fonts/oswald-semibold-webfont.woff2') format('woff2'),
+        url('/fonts/oswald-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_proextralight';
+    src: url('/fonts2/sourcesanspro-extralight-webfont.woff2') format('woff2'),
+        url('/fonts2/sourcesanspro-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('/fonts2/sourcesanspro-bold-webfont.woff2') format('woff2'),
+        url('/fonts2/sourcesanspro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  
+
+
+
+
+}
+
+.wrapper {
+    flex: 1 0 auto;
+    width: 1170px;
+
+
+}
+
+/*HEADER*/
+.header {
+    height: 86px;
+    background-color: #292929;
+    color: #dddddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-content: center;
+    padding-left: 82px;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.logo__text {
+    color: #9b9a9a;
+    font-size: 21px;
+    font-family: 'source_sans_proextralight';
+}
+
+.header__img {
+    width: 158px;
+    height: 30px;
+}
+
+.aside {
+    display: flex;
+    padding-right: 99px;
+}
+
+.header__menu {
+    display: flex;
+    width: 683px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__mink {
+    color: #dddddd;
+    font-size: 20px;
+    font-family: 'source_sans_proextralight';
+
+
+}
+
+/*HEADER*/
+
+/*REQUEST SECTION*/
+.section__request {
+    margin-bottom: 125px;
+}
+
+
+.request__block {
+    display: flex;
+    position: relative;
+    width: 1170px;
+    height: 766px;
+
+
+}
+
+.overlay__request {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 54px;
+    top: 0;
+    opacity: 0.85;
+    display: flex;
+
+    flex-direction: column;
+
+
+
+
+
+}
+
+
+.overlay__text {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 35px;
+    top: 280px;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'oswaldregular';
+    display: flex;
+    line-height: 1.90;
+}
+
+
+.btn__request {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 141px;
+    top: 486px;
+    width: 244px;
+    height: 54px;
+    background-color: #ffaf32;
+    font-size: 18px;
+    font-family: 'oswaldregular';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overlay__link {
+    color: black;
+}
+
+/*REQUEST SECTION*/
+
+/*WE DESIGNE SECTION*/
+.we__design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 134px;
+
+
+}
+
+.we_designtext {
+    font-size: 36px;
+    font-family: 'oswaldmedium';
+    margin-bottom: 83px;
+}
+
+.design__colum {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 99px;
+    padding-right: 91px;
+}
+
+.design__text {
+    font-size: 22px;
+    font-family: 'source_sans_proextralight';
+    margin-bottom: 30px;
+}
+
+/*WE DESIGNE SECTION*/
+
+/*PROJET SECTION*/
+.projet {
+    margin-bottom: 131px;
+}
+
+.projet__photos {
+    display: flex;
+
+}
+
+.projet_block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projet-text {
+    position: absolute;
+    display: flex;
+    font-family: 'oswaldmedium';
+    font-size: 36px;
+    color: #ffffff;
+
+
+}
+
+
+.hover__projet {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+
+}
+
+.projet_block:hover .hover__projet {
+    display: block;
+}
+
+/*PROJET SECTION*/
+
+/*ADVANTAGE SECTION*/
+.advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 144px;
+
+}
+
+.advantages__title {
+    font-size: 36px;
+    font-family: 'oswaldmedium';
+    margin-bottom: 83px;
+}
+
+.advantages__blocks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 53px;
+    padding-right: 49px;
+    
+}
+
+.advantages__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+}
+
+.advantages__icon {
+    margin-bottom: 29px;
+}
+
+.advantages__icontext {
+    font-size: 22px;
+    color: #ffaf32;
+    margin-bottom: 39px;
+
+}
+
+.advantages__text {
+    font-size: 18;
+    font-family: 'source_sans_proextralight';
+   
+
+
+
+}
+
+/*OUR WORK SECTION*/
+.our__work {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 36px;
+
+}
+
+.ourwork__heade {
+    display: flex;
+    height: 167px;
+    background-color: #292929;
+    justify-content: center;
+    align-items: center;
+
+}
+.questions__linkbtn {
+    text-decoration: none;
+    color: black;
+}
+
+.ourwork__title {
+    font-size: 36px;
+    font-family: 'oswaldmedium';
+    color: #ffffff;
+}
+
+.ourwork__photos {
+    display: flex;
+    flex-direction: row;
+}
+.ourwork__colum1 {
+    display: flex;
+    flex-direction: column;
+}
+.ourwork__colum2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ourwork__colum2photos {
+    display: flex;
+}
+
+/*OUR WORK SECTION*/
+
+/*QUESTIONS SECTION */
+.questions {
+    height: 96px;
+    background-color: #292929;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.questions__section {
+    margin-bottom: 82px;
+}
+
+.questions__titl {
+    font-size: 36px;
+    font-family: 'oswaldmedium';
+    color: #ffffff;
+    padding-left: 210px;
+}
+
+.btn__questions {
+    width: 244px;
+    height: 54px;
+    background-color: #ffaf32;
+    font-size: 18px;
+    font-family: 'oswaldregular';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions__linkbtn {
+    padding-right: 145px;
+}
+/*QUESTIONS SECTION */
+
+/*CONTACT SECTION */
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 77px;
+}
+.contact__titl {
+    font-size: 30px;
+    font-family: 'oswaldlight';
+    margin-bottom: 41px;
+}
+.contact__list {
+    margin-bottom: 28px;
+}
+
+
+.contact__text {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: 'source_sans_proextralight';
+    padding-left: 80px;
+
+}
+
+.contact__map {
+    display: flex;
+    padding-right: 57px;
+}
+
+
+
+/*CONTACT SECTION  */
+
+
+/*FOOTER*/
+
+.footer {
+    flex-shrink: 0;
+    height: 292px;
+    background-color: #292929;
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer__left {
+    display: flex;
+
+    height: 113px;
+
+    padding-top: 62px;
+    padding-left: 82px;
+  
+}
+
+.footer__listlink {
+    color: #adadad;
+    font-size: 18px;
+    font-family: 'source_sans_proextralight';
+}
+
+.footer__list {
+    margin-bottom: 28px;
+}
+
+.footer__list1 {
+    margin-right: 95px;
+}
+
+.footer__list2 {
+    margin-right: 89px;
+}
+
+.footer__right {
+    display: flex;
+    padding-top: 62px;
+    padding-right: 87px;
+    
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    font-family: 'source_sans_proextralight';
+    color: #adadad;
+    font-size: 20px;
+    font-style: normal;
+
+
+
+}
+
+.address__text {
+    margin-bottom: 28px;
+}
+
+
+
+.lam__footer {
+    color: #adadad;
+    font-size: 20px;
+    font-family: 'source_sans_proextralight';
+    display: flex;
+    padding-left: 82px;
+    padding-bottom: 27px;
+}
+
+.footer__row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__row2 {
+    display: flex;
+}
