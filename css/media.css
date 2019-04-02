@@ -6,7 +6,7 @@ max-width: 600px;
     }
 
     .header {
-        height: 220px;
+        height: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -20,6 +20,11 @@ max-width: 600px;
         padding-right: 0px;
 
 
+    }
+
+    .menu__mink {
+        font-size: 30px;
+        font-weight: bold;
     }
 
     .aside {
@@ -65,6 +70,11 @@ max-width: 600px;
     align-items: center;
     text-align: center;
 }
+.design__text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .advantages__blocks {
     display: flex;
     flex-direction: column;
@@ -73,6 +83,10 @@ max-width: 600px;
 .advantages__block {
     margin-bottom: 30px;
     text-align: center;
+}
+.advantages__text {
+    font-size: 30px;
+        font-weight: bold;
 }
 .advantages {
     margin-bottom: 0;
@@ -122,6 +136,11 @@ width: 300px;
     align-items: center;
     margin-bottom: 20px;
 }
+
+.contact__list {
+    font-size: 30px;
+        font-weight: bold;
+}
 .contact__text {
     text-align: center;
     padding-left: 0;
@@ -131,11 +150,19 @@ width: 300px;
 }
 
     .footer {
-        height: 550px;
+        height: 800px;
         display: flex;
         flex-direction: column;
+        
     }
-  
+    .footer__listlink {
+        font-size: 30px;
+        font-weight: bold;
+    }
+  .address__text  {
+      font-size: 30px;
+      font-weight: bold;
+  }
     .footer__left {
         flex-direction: column;
         align-items: center;
@@ -173,5 +200,7 @@ width: 300px;
     .lam__footer {
         padding-left: 0;
         padding-bottom: 20px;
+        font-size: 30px;
+        font-weight: bold;
     }
 }
