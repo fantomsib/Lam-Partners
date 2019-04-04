@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+@media (max-width: 450px) {
     body {
         display: flex;
 
@@ -53,16 +53,21 @@
     .project {
         margin-bottom: 20px;
     }
+
+    .project__img {
+        width: 400px;
+        height: 350px;
+    }
     .project__block:after {
         content: "";
         position: absolute;
         top: 0;
-        left: -100px;
+        left: -50px;
         
         margin: 0;
         padding: 0;
-        width: 585px;
-        height: 504px;
+        width: 400px;
+        height: 350px;
         background-color: #e7aa4b;
     
     }
@@ -290,6 +295,7 @@
 
     .contact__map {
         padding-right: 0;
+        width: 400px;
     }
 
     .footer {
