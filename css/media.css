@@ -33,9 +33,6 @@
         flex-direction: column;
         padding-right: 0px;
         padding-right: 0px;
-        padding-bottom: 20px;
-
-
     }
 
     .menu__link {
@@ -43,18 +40,31 @@
         font-weight: bold;
     }
 
-
-
     .header__logo {
-        padding-top: 20px;
+        padding-right: 0px;
+        padding-top: 10px;
         display: flex;
         padding-left: 0px;
+        margin-bottom: 20px;
 
 
     }
 
     .project {
         margin-bottom: 20px;
+    }
+    .project__block:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100px;
+        
+        margin: 0;
+        padding: 0;
+        width: 585px;
+        height: 504px;
+        background-color: #e7aa4b;
+    
     }
 
     .project__photos {
@@ -66,17 +76,80 @@
         left: 150px;
     }
 
-    .section__request {
+    .request {
         margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .request__img {
+        width: 400px;
+        height: 350px;
     }
 
+    .request:after {
+        content: "";
+        height: 350px;
+        width: 200px;
+        opacity: 0.85;
+        background-color: #494949;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        left: -20px;
+        top: 0;
+        display: flex;
+    }
+
+    
+.overlay__text {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0px;
+    top: 85px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'oswaldregular';
+    display: flex;
+    line-height: 1.90;
+    z-index: 2;
+}
+
+.request__link {
+    color: black;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 5px;
+    top: 200px;
+    width: 150px;
+    height: 40px;
+    background-color: #ffaf32;
+    font-size: 14px;
+    font-family: 'oswaldregular';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+
+    .design__item {
+        margin-bottom: 15px;
+    }
 
     .design {
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
 
-    .we_designtext {
-        margin-bottom: 20px;
+    .design__link {
+        margin-bottom: 30px;
+        color: black;
+        font-weight: bold;
+    }
+
+    .design__title {
+        margin-bottom: 10px;
     }
 
     .design__colum {
@@ -96,6 +169,10 @@
         align-items: center;
     }
 
+    .advantages__title {
+        margin-bottom: 20px;
+    }
+
     .advantages__list {
         margin-bottom: 30px;
         text-align: center;
@@ -107,8 +184,10 @@
     .advantages__items {
         margin-bottom: 35px;
     }
-
-    .advantages__text {
+.advantages__text {
+    margin-bottom: 5px;
+}
+    .advantages__info {
         font-size: 30px;
         font-weight: bold;
     }
@@ -142,6 +221,7 @@
     .ourwork__heade {
         height: 70px;
     }
+
     .ourwork__colum1:after {
         content: "";
         display: block;
@@ -155,13 +235,25 @@
         background-color: #5e5e5e;
         opacity: 0.80;
     }
+    .ourwork__textimg {
+        top:15px;
+        left: 15px;
+    }
 
+    .ourwork__text {
+        font-size: 25px;
+    }
+
+    .ourwork__link {
+        font-size: 25px;
+    }
 
 
     .questions {
         display: flex;
         flex-direction: column;
         height: 130px;
+        margin-bottom: 20px;
 
     }
 
@@ -181,7 +273,7 @@
         margin-bottom: 20px;
     }
 
-    .contact__list {
+    .contact__items {
         font-size: 30px;
         font-weight: bold;
     }
@@ -189,6 +281,11 @@
     .contact__text {
         text-align: center;
         padding-left: 0;
+    }
+
+    .contact__email, .contact__numberlink, .address__mail, .address__mobil {
+        font-size: 30px;
+        text-decoration: underline;
     }
 
     .contact__map {
